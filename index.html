@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listagem-pokemo</title>
+
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossoringin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/scroll.css">
+</head>
+<body>
+    <header>
+        <a href="/">
+        <img src="./src/images/pokeball.png" alt="pokebola" class="logo" >
+        </a>
+        <h1 class="titulo">POKEDEX</h1>
+        <button id="botao-alterar-tema"> 
+            <img src="./src/images/sun.png" alt="imagem do sol" class="imagem-botao">
+        </button>
+    </header>
+    <main>
+        <ul class="Listagem-pokemon">
+            <li class="cartao-pokemon" id="grass-e-veneno"> 
+                <div class="informacoes" > 
+                     <span>Bulbasaur </span>
+                    <span>#001</span>
+                </div>
+
+                <img src="./src/images/bulbasaur.gif" alt="bulbasaur" class="gif" >
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+                    <li class="tipo-veneno ">Veneno</li>
+                </ul>
+                <p class="descricao"> Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce lentamente.</p>
+            </li>
+
+            <li class="cartao-pokemon" id="grass-e-veneno">
+                <div class="informacoes" > 
+                     <span>Ivysaur </span>
+                    <span>#002</span>
+                </div>
+
+                <img src="./src/images/ivysaur.gif" alt="ivysaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+                    <li class="tipo-veneno ">Veneno</li>
+                </ul>
+                <p class="descricao"> O pokemon que todo mundo esquece o nome, chato e nada importante.</p>
+            </li>
+
+            <li class="cartao-pokemon" id="grass-e-veneno">
+                <div class="informacoes" > 
+                     <span>Venusaur </span>
+                    <span>#003</span>
+                </div>
+
+                <img src="./src/images/venusaur.gif" alt="venusaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+                    <li class="tipo-veneno ">Veneno</li>
+                    
+                </ul>
+                <p class="descricao"> Dinousauro foda, cresce uma flor nas costas, faz fotosintese. É ele, VENUSAUR  .</p>
+            </li>
+            <li class="cartao-pokemon" id="fogo">
+                <div class="informacoes"> 
+                    <span>charmander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="./src/images/charmander.gif" alt="charmander" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-fogo">Fogo</li>
+                    
+                </ul>
+                <p class="descricao" id="descricao_scroll"> lagarto de fogo, seu rabo mostra sua saúde.</p>
+            </li>
+        </li>
+        <li class="cartao-pokemon" id="fogo">
+            <div class="informacoes"> 
+                <span>charmeleon</span>
+                <span>#005</span>
+            </div>
+
+            <img src="./src/images/charmeleon.gif" alt="charmeleon" class="gif">
+            <ul class="tipos">
+                <li class="tipo-fogo">Fogo</li>
+                
+            </ul>
+            <p class="descricao"> lagarto maior, tambem de fogo, seu rabo mostra sua saúde.</p>
+        </li>
+        <li class="cartao-pokemon" id="fogo">
+            <div class="informacoes"> 
+                <span>charizard</span>
+                <span>#006</span>
+            </div>
+
+            <img src="./src/images/charizard.gif" alt="charizard" class="gif">
+            <ul class="tipos">
+                <li class="tipo-fogo">Fogo</li>
+                
+            </ul>
+            <p class="descricao"> Nem sei mais se é um lagarto, mas tambem é de fogo, ele voa.</p>
+        </li>
+        
+        
+        </ul> 
+    </main>
+  <script src="./src/javascript/index.js"></script>
+</body>
+</html>
